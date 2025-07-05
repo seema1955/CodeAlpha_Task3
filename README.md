@@ -32,5 +32,29 @@ This project is a part of my cybersecurity internship task to set up a **Network
 sudo apt update
 sudo apt install snort
 
+# ✅ Test the Snort configuration file
+sudo snort -T -c /etc/snort/snort.conf
+
+# 🔍 Run Snort in verbose (packet dump) mode
+sudo snort -v -i <interface>
+
+# 🧠 Run Snort in IDS mode with alerts to console
+sudo snort -A console -q -c /etc/snort/snort.conf -i <interface>
+
+# 🛠️ Edit or add local rule file
+sudo nano /etc/snort/rules/local.rules
+
+# 🧾 Example rule (ICMP ping detection)
+alert icmp any any -> 192.168.101.154 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
+
+# 🚦 Check IP address and interface
+ip a
+
+
+
+
+
+
+
 
 
