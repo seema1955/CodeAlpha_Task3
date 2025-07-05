@@ -32,4 +32,3 @@ This project is a part of my cybersecurity internship task to set up a **Network
 sudo apt update
 sudo apt install snort
 
-https://github.com/seema1955/CodeAlpha_Task3/issues/1#issue-3204461605
