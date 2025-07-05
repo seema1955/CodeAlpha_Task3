@@ -45,7 +45,7 @@ sudo snort -A console -q -c /etc/snort/snort.conf -i <interface>
 sudo nano /etc/snort/rules/local.rules
 
 # 🧾 Example rule (ICMP ping detection)
-alert icmp any any -> 192.168.101.154 any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
+alert icmp any any -> any any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
 
 # 🚦 Check IP address and interface
 ip a
