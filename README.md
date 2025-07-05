@@ -32,3 +32,5 @@ This project is a part of my cybersecurity internship task to set up a **Network
 sudo apt update
 sudo apt install snort
 
+![image alt](https://github.com/seema1955/CodeAlpha_Task3/blob/main/install_image.png?raw=true)
+
