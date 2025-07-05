@@ -31,5 +31,3 @@ This project is a part of my cybersecurity internship task to set up a **Network
 ```bash
 sudo apt update
 sudo apt install snort
-<img width="795" height="479" alt="Image" src="https://github.com/user-attachments/assets/c6502bd1-feff-4fe1-85aa-d715e168bd09" />
-
